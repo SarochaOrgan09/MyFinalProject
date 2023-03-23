@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w1"
+    tools:context=".Information2">
+
+    <Button
+        android:id="@+id/logout2"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#C63232"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/go2"
+        android:layout_width="180dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#9AA5A4"
+        android:text="เข้าใช้บริการ"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="180dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#9AA5A4"
+        android:text="ย้อนกลับ"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="239dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:text="บริการของทางร้าน
+Pet Sitter"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="290dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:text="บริการรับฝากสัตว์เลี้ยง"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="258dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.508"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/p3" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="361dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:text="Pet Sitter เปิดให้บริการรับฝากเลี้ยงสุนัข
+ทุกวันตั้งแต่เวลา 08.00 - 20.00 น.
+เจ้าของสบายใจที่ใช้บริการได้                เพราะมีเจ้าหน้าที่
+และผู้เชี่ยวชาญคอยดูแลตลอด 24 ชม."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
